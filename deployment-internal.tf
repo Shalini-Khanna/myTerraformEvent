@@ -22,7 +22,7 @@ resource "kubernetes_deployment" "internal-deployment" {
       }
       spec {
         container {
-          image = "imgaurav3/internal:1.0"
+          image = "shakhanna/internal:2.0"
           name  = "internal"
 
           port {

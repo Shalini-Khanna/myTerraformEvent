@@ -22,7 +22,7 @@ resource "kubernetes_deployment" "external-deployment" {
       }
       spec {
         container {
-          image = "imgaurav3/external:1.0"
+          image = "shakhanna/external:2.0"
           name  = "external"
 
           port {
